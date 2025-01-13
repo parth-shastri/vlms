@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "vlms"
+version = "0.1.0"
+description = "Vision Language Models"
+authors = ["Parth Shastri <shastriparth28@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = {version = "^2.5.1+cu121", source = "pytorch-gpu-src"}
+torchvision = {version = "^0.20.1+cu121", source = "pytorch-gpu-src"}
+torchaudio = {version = "^2.5.1+cu121", source = "pytorch-gpu-src"}
+transformers = "^4.47.1"
+datasets = "^3.2.0"
+tokenizers = "^0.21.0"
+
+
+[[tool.poetry.source]]
+name = "pytorch-gpu-src"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,218 @@
+# Operating System Files
+##########################
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+##########################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Python
+##########################
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.Python
+pip-log.txt
+pyvenv.cfg
+*.sqlite3
+**/.pytest_cache/
+
+# Virtual Environments
+##########################
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Node.js
+##########################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+
+# Logs
+##########################
+*.log
+*.out
+*.err
+logs/
+
+# macOS specific
+##########################
+*.DS_Store
+
+# Windows specific
+##########################
+*.lnk
+desktop.ini
+$RECYCLE.BIN/
+
+# Dependency directories
+##########################
+/vendor/
+composer.lock
+
+# Temporary files
+##########################
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# JetBrains IDE
+##########################
+.idea/
+*.iml
+*.iws
+out/
+
+# Byte-compiled / optimized / DLL files
+##########################
+*.class
+*.dll
+*.exe
+*.out
+*.jar
+*.war
+*.apk
+*.dex
+
+# Java
+##########################
+*.class
+*.war
+*.ear
+/target/
+
+# C/C++
+##########################
+*.obj
+*.o
+*.so
+*.exe
+*.dll
+*.out
+*.dSYM/
+*.stackdump
+
+# Rust
+##########################
+/target/
+
+# Go
+##########################
+/bin/
+/vendor/
+
+# Docker
+##########################
+*.dockerignore
+docker-compose.yml
+Dockerfile
+docker-compose.override.yml
+
+# Terraform
+##########################
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Kubernetes
+##########################
+*.kube/
+.kube/config
+
+# Custom settings
+##########################
+.env
+*.env.local
+.env.development
+.env.production
+.env.test
+
+# Jupyter Notebooks
+##########################
+.ipynb_checkpoints
+
+# LaTeX
+##########################
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.spl
+
+# Archives
+##########################
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Images
+##########################
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+# *.ico
+
+# Data files
+##########################
+*.csv
+*.dat
+*.sql
+*.tar
+*.db
+
+# Executables
+##########################
+*.exe
+*.out
+*.app
+
+# Ignore backups
+##########################
+*~
+
+# secrets exclusion
+########################
+*secrets/
+**/*.env
+
+# Ignore the chat history
+##########################
+*history/
+
+# Ignore the artifact files
+###########################
+.files/
+
+paligemma-3b-pt-224/
+
+poetry.lock
